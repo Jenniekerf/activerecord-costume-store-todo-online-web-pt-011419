@@ -4,6 +4,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
     create_table :costumes do 
       |c|
       c.string :name
+      c.integer :price
     end
   end 
 end  
